@@ -1,0 +1,38 @@
+.payementPage{
+    max-width: 500px;
+    border: 2px solid rgb(165, 122, 154);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px auto;
+}
+.payementPage h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+}
+.payementPage form input,
+.payementPage form button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(216, 175, 214);
+    border: 1px solid rgb(137, 95, 144);
+}
+.payementPage form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payementPage form button{
+    width: 150px;
+    background: rgb(119, 12, 110);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.payementPage form a{
+    color: rgb(219, 55, 197);
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
